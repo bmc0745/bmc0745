@@ -5,47 +5,247 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>北穆川的作业库</title>
     <style>
+        a {
+            text-decoration: none;
+            color: blanchedalmond;
+            padding-left: 10px;
+        }
+
+        a:hover {
+            font-size: 30px;
+        }
+
         * {
             margin: 0;
             padding: 0;
         }
 
-        h1 {
-            background-color: antiquewhite;
-            width: 1000px;
+        .to {
+            width: 1536px;
             margin: 0 auto;
+            height: 100px;
+            background-color: rgb(32, 26, 18);
+            display: flex;
+        }
+        /* 图片 */
+        .to img {
+            align-content: center;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            margin-top: 15px;
+            margin-left: 200px;
+            cursor: pointer;
+            animation:tj 360s infinite;
+        }
+
+        .to span {
+            width: 180px;
+            margin: 0 auto;
+            margin-top: 30px;
+            color: bisque;
+            margin-left: 100px;
+            font-size: 35px;
+        }
+
+        .yw:hover {
+            color: brown;
+        }
+
+        .input {
+            background-color: rgb(44, 36, 36);
+            width: 500px;
+            height: 40px;
+            margin-top: 30px;
+            margin-left: 50px;
+        }
+
+        .btn {
+            width: 40px;
+            height: 44px;
+            margin-top: 30px;
+            background-color: rgb(44, 56, 36);
+            cursor: pointer;
         }
 
         dl {
-            background-color: aliceblue;
+            background-color: rgb(32, 58, 81);
             width: 1000px;
             margin: 0 auto;
         }
-
         ul {
-            font-size: 24px;
+            font-size: 30px;
+            color: rgb(241, 215, 117);
+            padding: 10px;
+            cursor: pointer;
+            text-align: center;
         }
+
+        li {
+            list-style: none;
+            height: 30px;
+            display: none;
+        }
+
+        dd {
+            height: 30px;
+        }
+
+        body {
+            background-color: blanchedalmond;
+        }
+        /* 文字 */
+        .dyt {
+            font-size: 25px;
+            margin-left: 10px;
+            font-weight: 800;
+            color: rgb(241, 215, 117);
+            cursor: pointer;
+            
+        }
+        .dyt2{
+            font-size: 25px;
+            margin-left: 10px;
+            font-weight: 800;
+            color: rgb(241, 215, 117);
+            cursor: pointer;
+            height: 100px;
+        }
+        .dyt3{
+            font-size: 25px;
+            margin-left: 10px;
+            font-weight: 800;
+            color: rgb(241, 215, 117);
+            cursor: pointer;
+            height: 100px;
+        }
+        p{
+            font-size: 25px;
+            margin-left: 10px;
+            font-weight: 800;
+            color: rgb(241, 215, 117);
+            cursor: pointer;
+            height: 40px;
+        }
+        .ckzp{
+            width: 160px;
+            height: 40px;
+            margin-left: 150px;
+            color: black;
+            font-weight: 700;
+            background-color:rgb(241, 215, 117);
+        }
+        /* 自我介绍 */
+        .zwjs{
+            font-size: 25px;
+            margin-left: 10px;
+            font-weight: 800;
+            color: rgb(241, 215, 117);
+            cursor: pointer;
+            height: 100px;
+        }
+        ol{
+            display: none;
+        }
+        dd{
+            display: none;
+        }
+        @keyframes tj{
+				from {transform: rotate(0deg);}
+				to {transform: rotate(9914deg);}
+			}
     </style>
 </head>
 
 <body>
-    <h1>我的作业库</h1>
+    <div class="to">
+        <img src="zy/img/头像.jpg" alt=""class="img">
+        <span class="yw">Againtospyonme</span>
+        <input type="text" class="input">
+        <input type="button" class="btn" value="搜索">
+        <span>我的作业库</span>
+    </div>
     <dl>
-        <ul>8月</ul>
-        <dt>1.小米商城</dt>
-        <dt>2.太极图</dt>
-        <dt>3.钢琴</dt>
-        <ul>第一天</ul>
-        <dd><a href="">弹窗恶作剧(window.alert())</a></dd>
-        <dd><a href="">下拉菜单(切换class属性值)</a></dd>
-        <dd><a href="">文章字号切换(切换class属性值)</a></dd>
-        <dd><a href="">文章样式切换(切换class属性值)</a></dd>
-        <dd><a href="">开关灯(切换src属性值)</a></dd>
-        <dd><a href="">开关按钮(切换class属性值)</a></dd>
-        <dd><a href="">张三在北京 (读取value属性值)</a></dd>
-        <dd><a href="">当前菜单(切换class属性值)</a></dd>
-        <dd><a href="">选项卡(切换class属性值)</a></dd>
+        <h1 style=" color: rgb(241, 215, 117);text-align: center;">九月</h1>
+        <span class="dyt">1.九月操作属性</span>
+        <li><a href="zy/弹窗.html">弹窗恶作剧(window.alert())</a></li>
+        <li><a href="zy/下拉菜单.html">下拉菜单(切换class属性值)</a></li>
+        <li><a href="zy/字号最小14最大24.html">文章字号切换(切换class属性值)</a></li>
+        <li><a href="zy/我与地坛.html">文章样式切换(切换class属性值)</a></li>
+        <li><a href="zy/灯泡.html">开关灯(切换src属性值)</a></li>
+        <li><a href="zy/button开关.html">开关按钮(切换class属性值)</a></li>
+        <li><a href="zy/你好.html">你好 (读取value属性值)</a></li>
+        <li><a href="zy/张三在北京.html">张三在北京 (读取value属性值)</a></li>
+        <li><a href="zy/当前菜单.html">当前菜单(切换class属性值)</a></li>
+        <li><a href="">选项卡(切换class属性值)</a></li>
+        <span class="dyt2">2.操作样式</span>
+        <dd><a href="zy/百变盒子.html">百变盒子</a></dd>
+        <dd><a href="zy/大 小.html">文字字号控制</a></dd>
+        <span class="dyt3">3.操作内容</span>
+        <ol><a href="zy/百变盒子.html">聊天</a></ol>
+        <ol><a href="zy/大 小.html">微博</a></ol>
+        <ol><a href="zy/百变盒子.html">坚果微信聊天</a></ol>
+        <ol><a href="zy/大 小.html">华为聊天</a></ol>
+        <br>
+        <br>
+        <br>
+        <span class="zwjs">自我介绍</span><button class="ckzp">点击查看作者照片</button>
+        <p>姓名：北穆川</p>
+        <p>身高：1.9米</p>
+        <p>体重：170斤</p>
+        <p>婚姻：未婚</p>
+        <p>名言：我写的是代码你写的是bug你拿什么跟我比</p>
+    </dl>
+
+    <script>
+        //获取元素
+        var odyt = document.querySelector('.dyt')
+        var odyt2 = document.querySelector('.dyt2')
+        var odyt3 = document.querySelector('.dyt3')
+        var ali = document.querySelectorAll('li')
+        var add = document.querySelectorAll('dd')
+        var aol = document.querySelectorAll('ol')
+        var oCkzp = document.querySelector('.ckzp')
+        //点击按oCkzp出现照片和弹窗
+        oCkzp.onclick = function(){
+            alert('你以为我的照片是你想看就能看的?')
+            alert('算了看你那么真城的份上还是给你看看八')
+        }
+
+        //点击显示和隐藏
+        odyt.onclick = function () {
+            for (let i = 0; i < ali.length; i++) {
+                if (getComputedStyle(ali[i]).display == 'none') {
+                    //    if(ali[i].style.display == 'none'){
+                    ali[i].style.display = 'block'
+                }else if (getComputedStyle(ali[i]).display == 'block'){
+                    ali[i].style.display = 'none'
+                }
+            }
+        }
+        odyt2.onclick = function () {
+            for (let i = 0; i < ali.length; i++) {
+                if (getComputedStyle(add[i]).display == 'none') {
+                    //    if(ali[i].style.display == 'none'){
+                    add[i].style.display = 'block'
+                }else if (getComputedStyle(add[i]).display == 'block'){
+                    add[i].style.display = 'none'
+                }
+            }
+        }
+        odyt3.onclick = function () {
+            for (let i = 0; i < ali.length; i++) {
+                if (getComputedStyle(aol[i]).display == 'none') {
+                    //    if(ali[i].style.display == 'none'){
+                    aol[i].style.display = 'block'
+                }else if (getComputedStyle(aol[i]).display == 'block'){
+                    aol[i].style.display = 'none'
+                }
+            }
+        }
+    </script>
 </body>
+
 </html>
